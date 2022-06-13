@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.App{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/*  navbar css */
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:80%;
+  height: 8rem;
+  margin: auto;
+}
+
+.navbar .navcart{
+  width:35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:3rem;
+  background-color: black;
+  border-radius: 0.7rem;
+}
+
+.navbar .navcart .list{
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+ 
+}
+
+.navbar .navcart .list .items{
+  
+  text-decoration: none;
+  list-style: none;
+  padding: 0rem 1rem;
+}
+
+.navbar .navcart .list .items:hover{
+  border-radius: 0.3rem;
+}
+
+.navbar .navcart .list .items button{
+  background-color: black;
+  border:none;
+  padding: 0.5rem 0rem;
+  color: white;
+}
+
+.navbar .navcart .list .items button:hover{
+ color: red;
+ cursor: pointer;
+}
+
+.navbar .navcart .list .items .link:hover{
+  color: red;
+}
+
+
+
+/*  menu cart design */
+
+.section{
+  position: relative;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  column-gap: 5rem;
+  row-gap: 6rem;
+  width:80%;
+  margin:3rem auto;
+  
+}
+
+.section .cart{
+  width:25%;
+  height:25rem;
+  border-radius:0.2rem;
+  box-shadow: 0.1rem 0.2rem 0.8rem rgb(110, 110, 103);
+  
+}
+
+.section .cart:hover{
+  box-shadow: 0.1rem 0.2rem 0.8rem rgb(15, 15, 14);
+  cursor: pointer;
+}
+
+.section .cart .inside_cart{
+  width:95%;
+  margin:auto;
+}
+
+.section .cart .inside_cart .id{
+  padding: 0.8rem 0rem;
+  border-radius: 50% black;
+}
+
+.section .cart .inside_cart .small_title{
+  font-size: 0.5rem;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+  color:rgb(22, 22, 41);
+}
+
+.section .cart .inside_cart .title{
+  font-size: 1.5rem;
+  color: red;
+  padding-bottom: 1rem;
+}
+
+.section .cart .inside_cart img{
+  width:100%;
+  object-fit: cover;
+  height:15rem;
+}
+
+.section .cart .inside_cart .button{
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.5rem 0rem 1rem 0rem; 
+}
+
+.section .cart .inside_cart .button button{
+  padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+  border: none;
+}
+
+.section .cart .inside_cart .button button:hover{
+  color:white;
+  background-color: red;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
